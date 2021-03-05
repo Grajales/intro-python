@@ -13,6 +13,7 @@
 ```text
 Your answer.
 ```
+8
 
 ---
 
@@ -23,7 +24,7 @@ Your answer.
 ```text
 Your answer.
 ```
-
+144
 ---
 
 ```py
@@ -32,6 +33,7 @@ Your answer.
 
 ```text
 Your answer.
+prints a milli 6 times
 ```
 
 ---
@@ -42,8 +44,9 @@ Your answer.
 
 ```text
 Your answer.
-```
 
+```
+error
 ---
 
 ```py
@@ -53,7 +56,7 @@ print("My favorite number is: " + my_favorite_number)
 
 ```text
 Your answer.
-```
+wrong
 
 ---
 
@@ -65,7 +68,7 @@ print("My favorite number is: {}".format(my_favorite_number))
 ```text
 Your answer.
 ```
-
+My favorite number is: 13
 ---
 
 ### Truthiness and Falsiness
@@ -78,6 +81,10 @@ Your answer.
 [ ] ""
 [ ] None
 [ ] [ ] (empty array)
+### if below gives a boolean, then it is false
+print(type(False)) 
+print(False==False)
+print(0==False)
 ```
 
 #### What are the outputs and/or side effects of the following code snippets?
@@ -119,7 +126,7 @@ if age:
 ```text
 Your answer.
 ```
-
+error
 ---
 
 ```py
@@ -131,7 +138,7 @@ if age:
 ```text
 Your answer.
 ```
-
+error
 ### Conditionals
 
 Write the code for the following exercise inside of the `app.py` located in this repo. Run/test your code using `python app.py` in the Terminal.
